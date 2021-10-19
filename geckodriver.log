@@ -1,0 +1,338 @@
+geckodriver: error: Found argument '--websocket-port' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    geckodriver [FLAGS] [OPTIONS]
+
+For more information try --help
+
+venv/bin/geckodriver: error: Found argument '--websocket-port' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    geckodriver [FLAGS] [OPTIONS]
+
+For more information try --help
+
+venv/bin/geckodriver: error: Found argument '--websocket-port' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    geckodriver [FLAGS] [OPTIONS]
+
+For more information try --help
+
+geckodriver: error: Found argument '--websocket-port' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    geckodriver [FLAGS] [OPTIONS]
+
+For more information try --help
+
+geckodriver: error: Found argument '--websocket-port' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    geckodriver [FLAGS] [OPTIONS]
+
+For more information try --help
+
+1634634512622	geckodriver	INFO	Listening on 127.0.0.1:34101
+1634634512626	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "43723" "-no-remote" "-profile" "/tmp/rust_mozprofile8602W8"
+1634634521403	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile8602W8/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 770))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+DevTools listening on ws://localhost:43723/devtools/browser/f8863ab9-b0eb-46f3-a90b-1364fedb07cb
+1634634539837	Marionette	INFO	Listening on port 45343
+1634634541320	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1634634552479	Marionette	INFO	Stopped listening on port 45343
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1634634584348	geckodriver	INFO	Listening on 127.0.0.1:32837
+1634634584378	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "46159" "-no-remote" "-profile" "/tmp/rust_mozprofileBQgf9N"
+*** You are running in headless mode.
+1634634591021	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileBQgf9N/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:46159/devtools/browser/20b07937-90ff-45aa-b16c-8587a3076fd4
+1634634597429	Marionette	INFO	Listening on port 43751
+1634634598532	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+JavaScript warning: https://pagead2.googlesyndication.com/bg/6ezQI-oG7_JBlIQWa0q_6kDxCwRKhGyZnEhX1xufIgc.js line 1 > eval line 5836 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1634634651654	geckodriver	INFO	Listening on 127.0.0.1:53673
+1634634651658	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "33989" "-no-remote" "-profile" "/tmp/rust_mozprofilepRRRPz"
+*** You are running in headless mode.
+1634634654570	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilepRRRPz/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:33989/devtools/browser/81f1e345-ed10-4fe2-b0de-bec63bec9a3a
+1634634660574	Marionette	INFO	Listening on port 33411
+1634634660597	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1634634746514	geckodriver	INFO	Listening on 127.0.0.1:58347
+1634634746519	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "58925" "-no-remote" "-profile" "/tmp/rust_mozprofileQAcOGP"
+*** You are running in headless mode.
+1634634750158	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileQAcOGP/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58925/devtools/browser/7abf3ec9-875a-49f3-b71f-d3c204bd1e93
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1634634757728	Marionette	INFO	Listening on port 39135
+1634634758157	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://pagead2.googlesyndication.com/bg/6ezQI-oG7_JBlIQWa0q_6kDxCwRKhGyZnEhX1xufIgc.js line 1 > eval line 5647 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/6ezQI-oG7_JBlIQWa0q_6kDxCwRKhGyZnEhX1xufIgc.js line 1 > eval line 3630 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1634638365514	geckodriver	INFO	Listening on 127.0.0.1:43523
+1634638365958	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "56135" "-no-remote" "-profile" "/tmp/rust_mozprofileecY8tk"
+*** You are running in headless mode.
+1634638382062	geckodriver	INFO	Listening on 127.0.0.1:36555
+1634638382066	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "45405" "-no-remote" "-profile" "/tmp/rust_mozprofileibYKPg"
+*** You are running in headless mode.
+1634638385957	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileibYKPg/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+DevTools listening on ws://localhost:45405/devtools/browser/5d93ed22-7335-4f20-b360-34c1b83da8b9
+1634638398834	Marionette	INFO	Listening on port 33741
+1634638399088	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://pagead2.googlesyndication.com/bg/6ezQI-oG7_JBlIQWa0q_6kDxCwRKhGyZnEhX1xufIgc.js line 1 > eval line 3751 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1634638634150	geckodriver	INFO	Listening on 127.0.0.1:50257
+1634638634317	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "34391" "-no-remote" "-profile" "/tmp/rust_mozprofileqv0PjX"
+*** You are running in headless mode.
+1634638641354	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileqv0PjX/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:34391/devtools/browser/b67ec567-77c8-4d1c-b0aa-00592b8f77ff
+1634638650683	Marionette	INFO	Listening on port 33101
+1634638651300	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+1634638689012	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1634638719027	geckodriver	INFO	Listening on 127.0.0.1:54915
+1634638719089	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "51613" "-no-remote" "-profile" "/tmp/rust_mozprofileHPYOqv"
+*** You are running in headless mode.
+1634638729460	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileHPYOqv/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51613/devtools/browser/72ffeb5a-2533-4f1f-bd95-4053f63660d3
+1634638739548	Marionette	INFO	Listening on port 34249
+1634638741044	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/6ezQI-oG7_JBlIQWa0q_6kDxCwRKhGyZnEhX1xufIgc.js line 1 > eval line 4301 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1634638810479	geckodriver	INFO	Listening on 127.0.0.1:38241
+1634638810490	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "42575" "-no-remote" "-profile" "/tmp/rust_mozprofilevpGHGg"
+*** You are running in headless mode.
+1634638819086	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilevpGHGg/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+DevTools listening on ws://localhost:42575/devtools/browser/9e033cc0-c7ad-46c3-ae4a-516a812aed53
+1634638830636	Marionette	INFO	Listening on port 43599
+1634638832383	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://pagead2.googlesyndication.com/bg/6ezQI-oG7_JBlIQWa0q_6kDxCwRKhGyZnEhX1xufIgc.js line 1 > eval line 7744 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1634638886342	geckodriver	INFO	Listening on 127.0.0.1:39535
+1634638886462	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "43155" "-no-remote" "-profile" "/tmp/rust_mozprofiledw9FlA"
+*** You are running in headless mode.
+1634638911777	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofiledw9FlA/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 770))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+DevTools listening on ws://localhost:43155/devtools/browser/2d31b46d-870e-4586-b051-2d379663c0c0
+1634638939042	Marionette	INFO	Listening on port 34115
+1634638939401	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://pagead2.googlesyndication.com/bg/6ezQI-oG7_JBlIQWa0q_6kDxCwRKhGyZnEhX1xufIgc.js line 1 > eval line 470 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1634639089005	geckodriver	INFO	Listening on 127.0.0.1:54689
+1634639089118	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "35729" "-no-remote" "-profile" "/tmp/rust_mozprofileRTWkP3"
+*** You are running in headless mode.
+1634639104963	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileRTWkP3/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+DevTools listening on ws://localhost:35729/devtools/browser/c745e807-be08-4885-a349-113132665cdf
+1634639116848	Marionette	INFO	Listening on port 41461
+1634639117603	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/6ezQI-oG7_JBlIQWa0q_6kDxCwRKhGyZnEhX1xufIgc.js line 1 > eval line 5408 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1634639165745	geckodriver	INFO	Listening on 127.0.0.1:44719
+1634639165755	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "60645" "-no-remote" "-profile" "/tmp/rust_mozprofile9rTmBL"
+*** You are running in headless mode.
+1634639169748	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile9rTmBL/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60645/devtools/browser/35d7be84-96fa-4416-90ee-7fb0eae05ef6
+1634639177446	Marionette	INFO	Listening on port 35463
+1634639177542	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://pagead2.googlesyndication.com/bg/6ezQI-oG7_JBlIQWa0q_6kDxCwRKhGyZnEhX1xufIgc.js line 1 > eval line 4431 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1634639263037	geckodriver	INFO	Listening on 127.0.0.1:38713
+1634639263049	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "52979" "-no-remote" "-profile" "/tmp/rust_mozprofilewpJ9B8"
+*** You are running in headless mode.
+1634639266873	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilewpJ9B8/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52979/devtools/browser/6de75783-81a6-4e8d-9f87-447b48a86360
+1634639274549	Marionette	INFO	Listening on port 32967
+1634639274626	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1634639299467	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/6ezQI-oG7_JBlIQWa0q_6kDxCwRKhGyZnEhX1xufIgc.js line 1 > eval line 1602 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1634639481628	geckodriver	INFO	Listening on 127.0.0.1:36823
+1634639482435	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "53607" "-no-remote" "-profile" "/tmp/rust_mozprofilexbt563"
+*** You are running in headless mode.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1634639530076	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilexbt563/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+DevTools listening on ws://localhost:53607/devtools/browser/ace4b98a-26aa-40fa-96d7-bea9e8e5c352
+1634639559698	Marionette	INFO	Listening on port 37131
+1634639579768	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: timeout
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1634639691058	geckodriver	INFO	Listening on 127.0.0.1:36473
+1634639691102	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "54381" "-no-remote" "-profile" "/tmp/rust_mozprofileunVeFa"
+*** You are running in headless mode.
+1634639696867	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileunVeFa/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54381/devtools/browser/c3e87620-c90b-4ff3-82f6-663ffee117af
+1634639703720	Marionette	INFO	Listening on port 32985
+1634639704096	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+JavaScript warning: https://pagead2.googlesyndication.com/bg/6ezQI-oG7_JBlIQWa0q_6kDxCwRKhGyZnEhX1xufIgc.js line 1 > eval line 7004 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1634639740437	geckodriver	INFO	Listening on 127.0.0.1:52913
+1634639740517	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "36755" "-no-remote" "-profile" "/tmp/rust_mozprofileIbk2uJ"
+*** You are running in headless mode.
+1634639760496	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileIbk2uJ/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+DevTools listening on ws://localhost:36755/devtools/browser/5c623474-e604-49e7-a41a-38280ecfe8a1
+1634639770305	Marionette	INFO	Listening on port 37029
+1634639770471	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://pagead2.googlesyndication.com/bg/6ezQI-oG7_JBlIQWa0q_6kDxCwRKhGyZnEhX1xufIgc.js line 1 > eval line 2218 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1634639962136	geckodriver	INFO	Listening on 127.0.0.1:33341
+1634639962773	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "51733" "-no-remote" "-profile" "/tmp/rust_mozprofilel3s2o8"
+*** You are running in headless mode.
+1634639984837	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilel3s2o8/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+Exiting due to channel error.
+Exiting due to channel error.
+1634640048169	geckodriver	INFO	Listening on 127.0.0.1:57279
+1634640048582	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "45441" "-no-remote" "-profile" "/tmp/rust_mozprofileJKhBVE"
+*** You are running in headless mode.
+1634640068290	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileJKhBVE/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 770))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+DevTools listening on ws://localhost:45441/devtools/browser/f4c42e86-6e8e-4d36-a375-da1e7a5a7912
+1634640079623	Marionette	INFO	Listening on port 46099
+1634640079876	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/6ezQI-oG7_JBlIQWa0q_6kDxCwRKhGyZnEhX1xufIgc.js line 1 > eval line 7477 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1634640467592	geckodriver	INFO	Listening on 127.0.0.1:39875
+1634640467948	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "39105" "-no-remote" "-profile" "/tmp/rust_mozprofileV9XvFp"
+*** You are running in headless mode.
+1634640490288	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileV9XvFp/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:39105/devtools/browser/8918addc-05b4-4a33-a4c2-0ad9883862bd
+1634640508040	Marionette	INFO	Listening on port 34929
+1634640508318	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://pagead2.googlesyndication.com/bg/6ezQI-oG7_JBlIQWa0q_6kDxCwRKhGyZnEhX1xufIgc.js line 1 > eval line 2843 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1634640732059	geckodriver	INFO	Listening on 127.0.0.1:60185
+1634640732582	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "47607" "-no-remote" "-profile" "/tmp/rust_mozprofilerzKTPX"
+*** You are running in headless mode.
+1634640750779	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilerzKTPX/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+DevTools listening on ws://localhost:47607/devtools/browser/77cf0929-1d69-41b9-b33c-1619eafb1997
+1634640782761	Marionette	INFO	Listening on port 45941
+1634640783156	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1634643049187	geckodriver	INFO	Listening on 127.0.0.1:34415
+1634643049582	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "35391" "-no-remote" "-profile" "/tmp/rust_mozprofileGIb9Q8"
+*** You are running in headless mode.
+1634643073657	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileGIb9Q8/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:35391/devtools/browser/4a53dbd9-9ac0-404d-aecd-da40ea1eb2fe
+1634643096682	Marionette	INFO	Listening on port 46423
+1634643097395	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.tripadvisor.com/Attraction_Review-g1367591-d8409217-Reviews-Chitwan_National_Park-Sauraha_Chitwan_District_Narayani_Zone_Central_Region.html, line 1: ReferenceError: osdlfm is not defined
+1634643167130	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-38/html/container.html, line 13: ReferenceError: osdlfm is not defined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/6ezQI-oG7_JBlIQWa0q_6kDxCwRKhGyZnEhX1xufIgc.js line 1 > eval line 1042 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1634643262303	geckodriver	INFO	Listening on 127.0.0.1:43861
+1634643262917	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "42523" "-no-remote" "-profile" "/tmp/rust_mozprofileptHrKG"
+*** You are running in headless mode.
+1634643278614	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileptHrKG/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:42523/devtools/browser/34905e5d-5b8e-431d-bda8-bd5923cecc54
+1634643301246	Marionette	INFO	Listening on port 35831
+1634643301930	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://pagead2.googlesyndication.com/bg/6ezQI-oG7_JBlIQWa0q_6kDxCwRKhGyZnEhX1xufIgc.js line 1 > eval line 2493 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1634643377578	geckodriver	INFO	Listening on 127.0.0.1:34857
+1634643377890	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "60501" "-no-remote" "-profile" "/tmp/rust_mozprofileonl0Nu"
+*** You are running in headless mode.
+1634643404381	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileonl0Nu/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+DevTools listening on ws://localhost:60501/devtools/browser/7073681e-2877-4aab-ae46-1832b008924e
+1634643439002	Marionette	INFO	Listening on port 34505
+1634643483619	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: timeout
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
