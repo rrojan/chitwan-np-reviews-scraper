@@ -1,6 +1,7 @@
 from bs4 import BeautifulSoup
 import json
 import math
+import pandas as pd
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
 import time
@@ -37,9 +38,11 @@ def scrape(url):
                 })
             print('New data: ')
             print(data)
-            # overrwite data to file on every iteration in case of fail
-            with open('result.json', 'w') as fp:
-                json.dump(data, fp)
+
+            # overrwite data to file on every iteration in case of fail 
+            # (can delete this step if timeout issue is resolved)
+            dump_data(data)
+
             # click next button for more reviews and wait 15 secs for it to load
             next_btn = driver.find_element(class_='dfuux f u j _T z _F _S ddFHE bVTsJ emPJr')
             next_btn.click()
@@ -49,6 +52,12 @@ def scrape(url):
         print(e)
     
     return data
+
+def dump_data(data):
+    with open('result.json', 'w') as fp:
+        json.dump(data, fp)
+    df_json = pd.read_json('result.json')
+    df_json.to_excel('results.xlsx')
 
 if __name__ == '__main__':
     URLS = [
