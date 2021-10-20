@@ -1,7 +1,8 @@
 from bs4 import BeautifulSoup
 import json
 import math
-import pandas as pd
+import pickle
+import chromedriver_binary  # Adds chromedriver binary to path
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
 import time
@@ -9,12 +10,16 @@ import time
 
 def scrape(url):
     print("Starting webdriver...")
-    options = Options()
-    options.headless = True
-    driver = webdriver.Firefox(options=options)
+    # options = Options()
+    # options.headless = True
+    # driver = webdriver.Firefox(options=options)
+    driver = webdriver.Chrome()
 
     print('Requesting data from url...')
     driver.get(url)
+    # cookies = pickle.load(open("cookies.pkl", "rb"))
+    # for cookie in cookies:
+    #     driver.add_cookie(cookie)
 
     print('Parsing data...')
     soup = BeautifulSoup(driver.page_source, "lxml")
@@ -29,6 +34,7 @@ def scrape(url):
 
     try:
         # run iteration for x times calculating x as ceil(max approx) of total reviews / 10
+        count = 0
         for _ in range(math.ceil(total_reviews / 10.0)):
             for review in reviews[:-1]:
                 data.append({
@@ -39,15 +45,32 @@ def scrape(url):
             print('New data: ')
             print(data)
 
-            # overrwite data to file on every iteration in case of fail 
-            # (can delete this step if timeout issue is resolved)
-            dump_data(data)
+            with open('results.json', 'w+') as fp:
+                json.dump(data, fp)
 
-            # click next button for more reviews and wait 15 secs for it to load
-            next_btn = driver.find_element(class_='dfuux f u j _T z _F _S ddFHE bVTsJ emPJr')
-            next_btn.click()
-            print('Sleeping for 15 secs for new reviews to load')
-            time.sleep(15000)
+            # with open('results.csv', 'w+') as f:
+            #     for key in data.keys():
+            #         f.write("%s,%s\n"%(key,data[key]))
+
+            # click next button manually in this time
+            # next_btn = driver.find(class_='dfuux f u j _T z _F _S ddFHE bVTsJ emPJr')
+            # next_btn.click()
+            print('Sleeping for 15 secs')
+            count += 1
+            print('Iteration: ', str(count))
+            time.sleep(15)
+
+            print('Requesting data from url...')
+            driver.get(url)
+            # pickle.dump( driver.get_cookies() , open("cookies.pkl","wb"))
+            # cookies = pickle.load(open("cookies.pkl", "rb"))
+            # for cookie in cookies:
+            #     driver.add_cookie(cookie)
+
+            print('Parsing data...')
+            soup = BeautifulSoup(driver.page_source, "lxml")
+
+            reviews = soup.find('div', class_='bPhtn').find_all('div', recursive=False)
     except Exception as e:
         print(e)
     
@@ -56,8 +79,9 @@ def scrape(url):
 def dump_data(data):
     with open('result.json', 'w') as fp:
         json.dump(data, fp)
-    df_json = pd.read_json('result.json')
-    df_json.to_excel('results.xlsx')
+    #df_json = pd.read_json('results.json')
+    # df_json.to_excel('results.xlsx')
+    # df_json.to_csv ('results.csv', index = None)
 
 if __name__ == '__main__':
     URLS = [
